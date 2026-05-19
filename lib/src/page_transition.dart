@@ -96,7 +96,7 @@ class PageTransition<T> extends PageRouteBuilder<T> {
     this.fullscreenDialog = false,
     this.opaque = false,
     this.isIos = false,
-    this.matchingBuilder = const CupertinoPageTransition(),
+    this.matchingBuilder = const CupertinoPageTransitionsBuilder,
     this.maintainStateData,
     this.reverseType,
     RouteSettings? settings,
